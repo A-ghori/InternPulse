@@ -19,7 +19,7 @@ Welcome to the official repository for **Basti Ka Pathsala Internship Portal**. 
 
 The landing page welcomes users and provides navigation for both applicants and administrators.
 
-![Home Page](./screenshots/homepage.png)
+![Home Page](./ss1.png)
 
 ---
 
@@ -27,7 +27,7 @@ The landing page welcomes users and provides navigation for both applicants and 
 
 Applicants fill out their details and submit their application. A confirmation alert is shown upon successful submission.
 
-![Registration Form](./screenshots/register-form.png)
+![Registration Form](./ss2.png)
 
 ---
 
@@ -35,7 +35,7 @@ Applicants fill out their details and submit their application. A confirmation a
 
 All applications are stored in the `internpulse.applications` collection in MongoDB Atlas, with applicant details and submission timestamp.
 
-![MongoDB Atlas](./screenshots/mongodb-atlas.png)
+![MongoDB Atlas](./ss3.png)
 
 ---
 
@@ -43,7 +43,7 @@ All applications are stored in the `internpulse.applications` collection in Mong
 
 Admins can view all submitted applications in a card-based layout, displaying applicant information and status.
 
-![Admin Panel](./ss1.png)
+![Admin Panel](./ss4.png)
 
 ---
 
