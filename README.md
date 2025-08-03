@@ -43,7 +43,7 @@ All applications are stored in the `internpulse.applications` collection in Mong
 
 Admins can view all submitted applications in a card-based layout, displaying applicant information and status.
 
-![Admin Panel](./screenshots/admin-panel.png)
+![Admin Panel](./ss1.png)
 
 ---
 
