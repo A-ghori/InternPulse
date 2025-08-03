@@ -1,0 +1,95 @@
+/* ===== Reset & Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #2c3e50;
+  line-height: 1.75;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===== Typewriter Effect ===== */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #4f46e5;
+  width: 0;
+  animation: typing 3.5s steps(40, end) forwards, blink 0.75s step-end 6;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #3b82f6;
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+/* ===== Button Styles ===== */
+button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(79, 70, 229, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+  box-shadow: 0 6px 12px rgba(67, 56, 202, 0.4);
+}
+
+/* ===== Form Container ===== */
+.form-container {
+  background: #ffffff;
+  max-width: 640px;
+  margin: 3rem auto;
+  padding: 2.5rem 3rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 1.25rem;
+  color: #1e293b;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+/* ===== Inputs & Select ===== */
+input, select, textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  font-size: 1rem;
+  background-color: #fefefe;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.25);
+}
