@@ -23,7 +23,7 @@ const handleSubmit = async (e) => {
   }
 
   try {
-    await axios.post('http://localhost:5050/api/applicants/register', form);
+    await axios.post(`${import.meta.env.VITE_API_URL}/register`, form);
     alert("🎉 Application Submitted Successfully!");
   } catch (err) {
     console.error("❌ Submission Error:", err);

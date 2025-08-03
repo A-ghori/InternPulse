@@ -9,7 +9,7 @@ export default function Admin() {
   useEffect(() => {
     const fetchApplications = async () => {
       try {
-        const res = await axios.get("http://localhost:5050/api/applicants");
+        const res = await axios.get(import.meta.env.VITE_API_URL);
         setApplications(res.data);
       } catch (err) {
         console.error("Error fetching applicants:", err);
